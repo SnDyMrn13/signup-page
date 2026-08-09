@@ -4,7 +4,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Join the Board Games Club</title>
+	
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2.1.1/css/pico.classless.min.css">
+	<link rel="stylesheet" href="style.css">
+	
 </head>
 <body>
 	<header>
@@ -25,10 +28,12 @@
 		</section>
 		<section id="why">
 			<h2>Why join</h2>
-			<article><h3>It's a community of "like minded" people</h3><p>Join people who share your passion for board games.</p></article>
-			<article><h3>Enjoy an organized game night</h3><p>It's less stressful than organizing your own at home.</p></article>
-			<article><h3>Try a "new" game for free</h3><p>Board games can be expensive - but here, everyone brings their own and you might find one you haven't tried before.</p></article>
-			<article><h3>Improve your skills</h3><p>You'll improve your strategic thinking and problem solving skills.</p></article>
+			<div class="flex-container">
+				<article><h3>It's a group of "like minded" people</h3><p>Join people who share your passion for board games.</p></article>
+				<article><h3>Enjoy an organized game night</h3><p>It's less stressful than organizing your own at home.</p></article>
+				<article><h3>Try a "new" game for free</h3><p>Board games can be expensive - but here, everyone brings their own and you might find one you haven't tried before.</p></article>
+				<article><h3>Improve your skills</h3><p>You'll improve your strategic thinking and problem solving skills.</p></article>
+			</div>
 		</section>
 		<section id="join">
 			<h2>Join</h2>
@@ -58,8 +63,16 @@
 				<button>Join the club</button>
 			</form>
 		</section>
+		
 	</main>
-	
+		<section id="field-notes">
+			<h2>Field notes: block and inline</h2>
+				<p>A paragraph is a block.  Inside it, <strong>strong words</strong>,
+					<a href="#welcome">links</a>, and <span>plain spans</span> stay in line.</p>
+				<div>A div takes the whole row.</div>
+				<p>So does a paragraph.</p>
+		</section>
+				
 	<footer>
 		<p>Made by Cindy Hulitsky, 2026.</p>
 	</footer>
