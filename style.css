@@ -65,7 +65,7 @@ textarea:focus{
 	border:2px solid seagreen;
 }
 #member-email:invalid{
-	border:2px dashed darkorange;
+	border:3px dashed red;
 }
 #welcome h1{
 	text-shadow:2px 2px 2px gray;
